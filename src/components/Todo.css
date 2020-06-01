@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+html,
+
+body{
+    max-width: 800px;
+    text-align: center;
+    background-color: darkkhaki;
+    color: moccasin;
+    font-family: 'Architects Daughter', cursive;
+    display: flex;
+    justify-content: center;
+    font: 2rem;
+}
+
+h1{
+    font: 5rem;
+}
+
+.item.done{
+    text-decoration: line-through;
+    color: whitesmoke;
+    font: 3rem;
+}
+
+button{
+    background-color: goldenrod;
+    font: 2.5rem;
+    color: moccasin;
+}
